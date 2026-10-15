@@ -4,6 +4,12 @@ Public privacy-policy and support pages for games published on the App Store by 
 
 GitHub Pages serves this site from the **root of the `main` branch**.
 
+## Enable GitHub Pages
+
+In the repository on GitHub: **Settings → Pages → Build and deployment → Deploy from a branch**. Choose branch `main` and folder `/` (root), then save.
+
+The site is published at https://kingaragorn.github.io/ApplePrivacy/ after `main` contains these files.
+
 | App | Privacy | Support |
 | --- | --- | --- |
 | JesterDrop | [`jesterdrop/privacy.html`](jesterdrop/privacy.html) | [`jesterdrop/support.html`](jesterdrop/support.html) |
