@@ -28,13 +28,13 @@ Copy a folder. `jesterdrop/` is the template.
 1. Copy `jesterdrop/` and rename the copy to a short lowercase name, for example `mygame/`.
 2. Edit `privacy.html` and `support.html` in the new folder. Keep the stylesheet link as `../styles.css`.
 3. Add the game to the list in `index.html`, with links to its privacy and support pages.
-4. If you have a real support email, replace the `support@example.com` placeholder in the new `support.html`.
+4. On the new privacy and support pages, link the contact email as [brad@arthedain.net](mailto:brad@arthedain.net). Keep GitHub issues as a secondary option.
 5. Open a pull request into `main`. After it merges, GitHub Pages publishes the new folder.
 
 Leave `.nojekyll` in place. It tells GitHub Pages to publish the files as they are, without running Jekyll.
 
 Shared layout lives in `styles.css`. Game pages do not need their own stylesheet.
 
-## Support email
+## Contact
 
-`support@example.com` in `jesterdrop/support.html` is a placeholder. It is not a monitored mailbox. Replace it before you rely on email for App Store support. GitHub issues on this repository are the working contact method.
+The monitored contact email is [brad@arthedain.net](mailto:brad@arthedain.net). Use it on each game’s privacy and support pages. GitHub issues on this repository are a secondary way to get help.
